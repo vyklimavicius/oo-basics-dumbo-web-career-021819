@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-class Book
-  def initialize(title) #Hook/Callback
-    @title = title
-  end
 
-  def title
-    @title #gets a property
-  end
-=======
 class Book 
   def initialize(title) #Hook/Callback
     @title = title 
@@ -44,64 +35,6 @@ class Book
   def turn_page
    puts "Flipping the page...wow, you read fast!"
   end 
-  
 end 
 
-class Shoe 
-  def initialize(brand)
-    @brand = brand 
-  end 
-  
-  def brand
-    @brand 
-  end 
-  
-  def color=(color)
-    @color = color  
-  end 
-end 
->>>>>>> 1c821bb3be8f1f461740c5c58c1f0f51526fd413
 
-  def author=(author_name) #setter(prop)
-    @author = author_name
-  end
-
-  def author #getter(prop)
-    @author
-  end
-
-  def page_count=(pages)
-    @page_count = pages
-  end
-
-  def page_count
-    @page_count
-  end
-
-  def genre=(genre)
-    @genre = genre
-  end
-
-  def genre
-    @genre
-  end
-
-  def turn_page
-   puts "Flipping the page...wow, you read fast!"
-  end
-
-end
-
-class Shoe
-  def initialize(brand)
-    @brand = brand
-  end
-
-  def brand
-    @brand
-  end
-
-  def color=(color)
-    @color = color
-  end
-end
