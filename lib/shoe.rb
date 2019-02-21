@@ -46,18 +46,4 @@ class Shoe
     @condition = "new"
   end
 end
-=======
-class Shoe 
-  def initialize(brand)
-    @brand = brand 
-  end 
-  
-  def brand
-    @brand 
-  end 
-  
-  def color=(color)
-    @color = color  
-  end 
-end 
->>>>>>> 1c821bb3be8f1f461740c5c58c1f0f51526fd413
+
